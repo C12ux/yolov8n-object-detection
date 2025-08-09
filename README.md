@@ -1,10 +1,12 @@
 # yolov8n-object-detection
 
-# 1️. Start FastAPI server
+```bash
+  Step 1: Start the FastAPI server
 python -m uvicorn app.main:app --reload
 
-# 2️. Open another terminal and go to the app directory
+Step 2: Open another terminal and navigate to the app directory
 cd app
 
-# 3️. Run the upload test script
+Step 3: Run the upload test script
 python upload_test.py
+```
